@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+	<title>Sign up Form</title>
+	<script src=" https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+	<script src="script.js"></script>
+</head>	
+
+<body>
+	<div id="invoice">
+	 
+<center>
+	 <h1 style="font-size:30px">Sign up here</h1>
+	 <form action="" method="">
+	  
+	   <table>
+         <tr>
+			 <td>Username:</td>
+			 <td>
+			  <input type="text"name="user"placeholder="enter your username">
+			  </td>
+         </tr>	   
+	     <tr>
+	         <td>Password:</td>
+	         <td>
+			  <input type="password" name="user_name"placeholder="enter your password">	 
+	         </td>
+	     </tr>
+	     <tr>
+			 <td>Email:</td>
+			 <td>
+				 <input type="email" name="mail"placeholder="enter your email id">
+			 </td>
+	     </tr>
+	     <tr>
+			 <td>Gender:</td>
+			 <td>
+				 <input type="radio" name="gender">male 
+				 <input type="radio" name="gender">female
+				 <input type="radio" name="gender">others
+			 </td>
+	     </tr>
+	     <tr>
+			 <td>Mobile Number:</td>
+			 <td>
+				 <select>
+					 <option>+123</option>
+					 <option>+71</option>
+					 <option>+191</option>
+					 <option>+91</option>
+				 </select>
+				 <input type="phone" name="mobile"placeholder="enter your mobile number" maxlength="10">
+			 </td>
+	     </tr>
+	     <tr>
+			 <td>
+				 <input type="submit" name"submit"
+				 value="SUBMIT">
+				 
+			 </td>
+	     </tr>
+	   </table>
+	 
+	 </form>
+	 <button onclick="generatePDF()">Download pdf</button>
+</center>
+</div>
+
+	
+</body>
+
+
+
